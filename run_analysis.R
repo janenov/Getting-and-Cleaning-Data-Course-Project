@@ -1,6 +1,6 @@
 run_Analysis  <- function() {
   
-  
+            require("data.table")
             X_test <- fread("test\\X_test.txt")
             y_test <- fread("test\\y_test.txt")
             
