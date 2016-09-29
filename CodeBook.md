@@ -49,7 +49,7 @@ As per requirements of this assignment, Inertial Signals folder was not used at 
 There are 5 parts:
 
 First I am giving names to the 2 data sets i will be working with.  X_test and X_train.
-Merges the training and the test sets to create one data set.
+Merge the training and the test sets to create one data set.
 Extracts only the measurements on the mean and standard deviation for each measurement.
 Uses descriptive activity names to name the activities in the data set, I only changed the feature name that included "BodyBody" string in it, the rest seem clear to me.
 Appropriately labels the data set with descriptive activity names.
