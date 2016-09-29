@@ -60,5 +60,6 @@ data.table library is required
 Load both test and train data
 Load the features and activity labels.
 Extract the mean and standard deviation column names and data.
+Adding 2 columns to the merged data set: ActivityName and SubjectId.
 Process the data. There are two parts processing test and train data respectively.
 Merge data set. To create the tiny data set I am using aggregate function.
