@@ -46,7 +46,7 @@ Transformation details
 
 As per requirements of this assignment, Inertial Signals folder was not used at all, since only mean and standard deviation was required for calculations and this data comes from X_train and X_test
 
-There are 5 parts:
+Process:
 
 First I am giving names to the 2 data sets i will be working with.  X_test and X_train.
 Merge the training and the test sets to create one data set.
