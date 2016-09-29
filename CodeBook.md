@@ -44,16 +44,18 @@ The following files are available for the train and test data. Their description
 
 Transformation details
 
+As per requirements of this assignment, Inertial Signals folder was not used at all, since only mean and standard deviation was required for calculations and this data comes from X_train and X_test
+
 There are 5 parts:
 
 Merges the training and the test sets to create one data set.
 Extracts only the measurements on the mean and standard deviation for each measurement.
-Uses descriptive activity names to name the activities in the data set
+Uses descriptive activity names to name the activities in the data set, I only changed the feature name that included "BodyBody" string in it, the rest seem clear to me.
 Appropriately labels the data set with descriptive activity names.
 Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 How run_analysis.R implements the above steps:
 
-Require reshapre2 and data.table librareis.
+data.table library is required
 Load both test and train data
 Load the features and activity labels.
 Extract the mean and standard deviation column names and data.
